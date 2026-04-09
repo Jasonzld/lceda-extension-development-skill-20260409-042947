@@ -1,0 +1,67 @@
+{
+  "name": "my-lceda-extension",
+  "uuid": "",
+  "displayName": "My LCEDA Extension",
+  "description": "A starter extension for 嘉立创EDA / EasyEDA Pro",
+  "version": "0.1.0",
+  "publisher": "",
+  "engines": {
+    "eda": "^3.0.0"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "extension-store",
+    "url": ""
+  },
+  "categories": "Other",
+  "keywords": ["Extension"],
+  "images": {
+    "logo": "./images/logo.png"
+  },
+  "homepage": "",
+  "bugs": "",
+  "activationEvents": {},
+  "entry": "./dist/index",
+  "dependentExtensions": {},
+  "headerMenus": {
+    "home": [
+      {
+        "id": "my-lceda-extension-home",
+        "title": "My Extension",
+        "menuItems": [
+          {
+            "id": "my-lceda-extension-home-about",
+            "title": "About...",
+            "registerFn": "about"
+          }
+        ]
+      }
+    ],
+    "sch": [
+      {
+        "id": "my-lceda-extension-sch",
+        "title": "My Extension",
+        "menuItems": [
+          {
+            "id": "my-lceda-extension-sch-about",
+            "title": "About...",
+            "registerFn": "about"
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "id": "my-lceda-extension-pcb",
+        "title": "My Extension",
+        "menuItems": [
+          {
+            "id": "my-lceda-extension-pcb-about",
+            "title": "About...",
+            "registerFn": "about"
+          }
+        ]
+      }
+    ]
+  }
+}
